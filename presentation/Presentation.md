@@ -26,3 +26,23 @@ footer: "**Prostředí Webu**
 ---
 
 <!-- header: 'Proxy Server' -->
+### Forward proxy
+- umístěna mezi klientem a internetem  
+- klient → Proxy → Internet  
+- použití:
+  - filtrování  
+  - anonymizace  
+  - bezpečnost  
+
+### Reverse proxy
+- stojí mezi klientem a backend serverem  
+- klient → Reverse Proxy (NGINX) → Aplikační / backend server  
+- použití:
+  - load balancing  
+  - cache  
+  - TLS terminace  
+  - ochrana backendu
+
+---
+
+<!-- header: 'NGINX Reverse Proxy vs Forward Proxy' -->
